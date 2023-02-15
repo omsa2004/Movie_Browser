@@ -7,8 +7,6 @@ import About from "./components/About";
 import SearchView from "./components/SearchView";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./components/NotFound";
-// TMDB API key = 39df20a40f86a4c7ab69e94de9655ad9
-// link = https://api.themoviedb.org/3/search/movie?api_key=39df20a40f86a4c7ab69e94de9655ad9&language=en-US&query=star%20wars&page=1&include_adult=false
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
